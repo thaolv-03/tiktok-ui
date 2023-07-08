@@ -9,10 +9,10 @@ import Upload from "~/pages/Upload";
 
 // Public routes
 const publicRoutes = [
-    { path: '/', component: Home },
-    { path: '/following', component: Following },
-    { path: '/profile', component: Profile },
-    { path: '/upload', component: Upload, layout: HeaderOnly },
+    { name: 'Home', path: '/', component: Home },
+    { name: 'Following', path: '/following', component: Following },
+    { name: 'Profile', path: '/profile', component: Profile },
+    { name: 'Upload', path: '/upload', component: Upload, layout: HeaderOnly },
 ]
 
 const privateRoutes = [
